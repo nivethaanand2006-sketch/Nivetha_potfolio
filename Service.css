@@ -1,0 +1,187 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+}
+
+/* Navbar */
+.navbar{
+    height:90px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:0 80px;
+background: linear-gradient(90deg,rgba(9, 112, 153, 1) 0%, rgba(87, 197, 199, 1) 50%, rgba(94, 185, 179, 1) 100%, rgba(193, 86, 178, 1) 100%, rgba(98, 83, 237, 1) 100%);
+    position:relative;
+}
+
+
+/* Logo */
+.logo{
+    transition:0.3s;
+    font-size:30px;
+}
+
+.blue{
+    color:#0f3342;
+    font-size:42px;
+    font-family:Georgia, serif;
+    font-weight:bold;
+}
+
+.name{
+    margin-left:10px;
+    letter-spacing:4px;
+    font-size:25px;
+    font-weight:600;
+}
+
+/* Navigation */
+.nav-links{
+    list-style:none;
+    display:flex;
+    gap:40px;
+}
+
+.nav-links a{
+    text-decoration:none;
+    color:#111;
+    font-size:20px;
+    letter-spacing:1px;
+}
+
+.nav-links a:hover{
+    color:#1ea7e1;
+
+}
+
+
+body{
+    background:#f3f3f3;
+    overflow-x:hidden;
+}
+/* Hero Section */
+
+.hero{
+    height:100vh;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:0 7%;
+    position:relative;
+}
+
+
+
+body{
+    background:#f3f3f3;
+    overflow-x:hidden;
+}
+
+/* Services */
+
+
+.services-section{
+    padding:100px 8%;
+    background:#f4f4f4;
+}
+
+.services-section h1{
+    font-size:70px;
+    font-family:Georgia, serif;
+    margin-bottom:40px;
+}
+
+
+.skill{
+    margin-bottom:35px;
+}
+
+.skill p{
+    margin-bottom:8px;
+    color:#666;
+    font-size:18px;
+}
+
+.bar{
+    width:100%;
+    height:20px;
+    background:#e8e8e8;
+    border-radius:20px;
+    overflow:hidden;
+}
+
+.progress{
+    height:100%;
+    background:#1496d4;
+    color:white;
+    text-align:right;
+    padding-right:10px;
+    line-height:20px;
+    font-size:12px;
+}
+
+.js{
+    width:85%;
+}
+
+.php{
+    width:95%;
+}
+
+.python{
+    width:75%;
+}
+
+.photoshop{
+    width:80%;
+}
+
+.services{
+    display:flex;
+    justify-content:space-between;
+}
+
+.service-box{
+    flex:1;
+    padding:0 50px;
+}
+.intro{
+    max-width:700px;
+    color:#7a8598;
+    font-size:22px;
+    line-height:1.8;
+    margin-bottom:80px;
+}
+
+
+.service-box i{
+    font-size:40px;
+    color:#1698d4;
+    margin-bottom:25px;
+}
+
+.service-box h3{
+    font-size:32px;
+    margin-bottom:25px;
+    font-family:'Oswald', sans-serif;
+    font-weight:400;
+}
+
+.service-box p{
+    color:#7a8598;
+    font-size:22px;
+    line-height:1.8;
+}
+
+ /* Footer */
+footer{
+    background:#111;
+    color:white;
+    text-align:center;
+    padding:50px 0;
+}

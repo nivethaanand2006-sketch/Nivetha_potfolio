@@ -1,0 +1,150 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+}
+
+/* Navbar */
+.navbar{
+    height:90px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:0 80px;
+background: linear-gradient(90deg,rgba(9, 112, 153, 1) 0%, rgba(87, 197, 199, 1) 50%, rgba(94, 185, 179, 1) 100%, rgba(193, 86, 178, 1) 100%, rgba(98, 83, 237, 1) 100%);
+    position:relative;
+}
+
+
+/* Logo */
+.logo{
+    transition:0.3s;
+    font-size:30px;
+}
+
+.blue{
+    color:#0f3342;
+    font-size:42px;
+    font-family:Georgia, serif;
+    font-weight:bold;
+}
+
+.name{
+    margin-left:10px;
+    letter-spacing:4px;
+    font-size:25px;
+    font-weight:600;
+}
+
+/* Navigation */
+.nav-links{
+    list-style:none;
+    display:flex;
+    gap:40px;
+}
+
+.nav-links a{
+    text-decoration:none;
+    color:#111;
+    font-size:20px;
+    letter-spacing:1px;
+}
+
+.nav-links a:hover{
+    color:#1ea7e1;
+
+}
+
+
+body{
+    background:#f3f3f3;
+    overflow-x:hidden;
+}
+/* Hero Section */
+
+.hero{
+    height:100vh;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:0 7%;
+    position:relative;
+}
+
+
+
+body{
+    background:#f3f3f3;
+    overflow-x:hidden;
+}
+/* About Section */
+
+.about{
+    padding:80px;
+
+    display:relative;
+    justify-content:space-between;
+    align-items:center;
+     
+        flex-direction:column-reverse;
+        text-align:center;
+
+}
+
+.about-head{
+    font-family: "Iceberg", sans-serif;
+   font-weight: 400;
+    font-style: normal;
+    font-size:50px;
+    margin-bottom:20px;
+    color:#135de7;
+}
+
+.content{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    position:relative;
+}
+
+.about-content-1{
+    display:flex;
+    font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+    font-weight: 100;
+    font-size:40px;
+    font-style: normal;
+    line-height: 1.2;
+    margin: auto;
+
+     
+
+}
+
+.about-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.about-image img{
+    margin-left:550px;
+    width:450px;
+    height:450px;
+    border-radius:50%;
+    object-fit:cover;
+    box-shadow:0 10px 30px rgba(0,0,0,0.15);
+
+
+}
+
+footer{
+    background:#111;
+    color:white;
+    text-align:center;
+    padding:50px 0;
+}

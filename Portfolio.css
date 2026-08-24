@@ -1,0 +1,200 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+}
+
+/* Navbar */
+.navbar{
+    height:90px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:0 80px;
+background: linear-gradient(90deg,rgba(9, 112, 153, 1) 0%, rgba(87, 197, 199, 1) 50%, rgba(94, 185, 179, 1) 100%, rgba(193, 86, 178, 1) 100%, rgba(98, 83, 237, 1) 100%);
+    position:relative;
+}
+
+
+/* Logo */
+.logo{
+    transition:0.3s;
+    font-size:30px;
+}
+
+.blue{
+    color:#0f3342;
+    font-size:42px;
+    font-family:Georgia, serif;
+    font-weight:bold;
+}
+
+.name{
+    margin-left:10px;
+    letter-spacing:4px;
+    font-size:25px;
+    font-weight:600;
+}
+
+/* Navigation */
+.nav-links{
+    list-style:none;
+    display:flex;
+    gap:40px;
+}
+
+.nav-links a{
+    text-decoration:none;
+    color:#111;
+    font-size:20px;
+    letter-spacing:1px;
+}
+
+.nav-links a:hover{
+    color:#1ea7e1;
+
+}
+
+
+body{
+    background:#f3f3f3;
+    overflow-x:hidden;
+}
+/* Hero Section */
+
+.hero{
+    height:100vh;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:0 7%;
+    position:relative;
+}
+
+
+
+body{
+    background:#f3f3f3;
+    overflow-x:hidden;
+}
+
+/* Portfolio */
+
+.portfolio h1{
+        font-size:70px;
+    font-family:Georgia, serif;
+    margin-bottom:40px;
+}
+.learning-card {
+    max-width: 950px;
+    margin: 50px auto;
+    padding: 50px 40px;
+    text-align: center;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.learning-icon {
+    width: 75px;
+    height: 75px;
+    margin: 0 auto 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    border-radius: 50%;
+    background: #f3f4f6;
+}
+
+.learning-card > h2 {
+    font-size: 32px;
+    margin-bottom: 18px;
+}
+
+.learning-card > p {
+    max-width: 750px;
+    margin: 0 auto 15px;
+    font-size: 16px;
+    line-height: 1.8;
+    color: #666;
+}
+
+.learning-details {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin-top: 35px;
+    text-align: left;
+}
+
+.learning-details h3 {
+    margin: 0 0 10px;
+    font-size: 18px;
+}
+
+.learning-details p {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.7;
+    color: #666;
+}
+
+.learning-details > div {
+    padding: 25px;
+    border-radius: 14px;
+    background: #f8f9fa;
+    transition: 0.3s ease;
+}
+
+.learning-details > div:hover {
+    transform: translateY(-6px);
+    background: #fff;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+.github-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    padding: 13px 28px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 600;
+    color: #fff;
+    background: #111;
+    transition: 0.3s ease;
+}
+
+.github-btn:hover {
+    transform: translateY(-3px);
+    background: #333;
+}
+
+@media (max-width: 768px) {
+    .learning-card {
+        padding: 35px 20px;
+        margin: 30px 15px;
+    }
+
+    .learning-details {
+        grid-template-columns: 1fr;
+    }
+
+    .learning-card > h2 {
+        font-size: 26px;
+    }
+}
+
+ /* Footer */
+footer{
+    background:#111;
+    color:white;
+    text-align:center;
+    padding:50px 0;
+}
